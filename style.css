@@ -1,8 +1,132 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
+
 .nav {
-    
+    background-color: #333333;
+    color: white;
+    align-items: left;
+}
+
+nav ul {
+    display: inline-block;
+    padding-left: -1rem;
+    font-family:'Times New Roman', Times, serif
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 1rem;
+}
+
+.lorem-grey{
+    display: flex;
+    background-color: #e8e8e8;
+    padding-bottom: 15rem;
+}
+
+.img1{
+    margin: 1rem;
+    position: absolute;
+    left: 19rem;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img2{
+    margin: 1rem;
+    position: absolute;
+    top: 11rem;
+    left: 28rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.lorem-text {
+    padding-top: 4rem;
+    margin-left: auto;
+    margin-right: 17rem;
+    width: 29rem;
+    text-align: right;
+}
+
+.lorem-h1 {
+    text-align: right;
+    float: right;
+    margin-right: 0;
+    margin-left: 13rem;
+}
+
+.lorem-p {
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+    width: 28rem;
+}
+.container {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 30vh;
+}
+
+.row {
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.box {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: lightblue;
+    margin: 10px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-radius: 5px;
+}
+
+.green {
+    margin-right: 8rem;
+    background-color: #7efacf;
+}
+
+.orange {
+    margin-left: 8rem;
+    background-color: #faba7e;
+}
+
+.purple {
+    margin-right: 5rem;
+    background-color: #9b7efb;
+}
+
+.lightgreen {
+    background-color: #cffa7e;
+}
+
+.pink {
+    background-color: #fb7ea5;
+}
+
+.container2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 10rem
+}
+
+.footer{
+    margin-top: 10rem;
+    display: flex;
+    background-color: #333333;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.footer p{
+    margin-left: 50rem;
+    padding-bottom: 4rem;
 }
